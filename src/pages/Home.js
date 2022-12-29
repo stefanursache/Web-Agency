@@ -33,8 +33,8 @@ const Home = (props) => {
     return (
         <Fragment>
 
-            <div  className='BackColor2  text-white h-auto w-100'>
-                <Row className='backImage2 w-100 h100' id='home'>
+            <div  className='BackColor2  text-white h-auto w-100 no-padding'>
+                <div className='backImage2 row w100 h100 no-gutter' id='home'>
                     <Navbar />
                     <Col className='d-block text-center w-100 col1'>
                         <p className='pt-5 fs70 '>Let’s put your idea </p>
@@ -44,11 +44,11 @@ const Home = (props) => {
 
                     </Col>
 
-                </Row>
+                </div>
 
 
 
-                <Row className='w-100 h-auto' id="wegetyou">
+                <Row className='w-100 h-auto row no-gutter' id="wegetyou">
 
                     <div className='d-block h-auto mx-auto text-center px-5 w50 noscroll ml'>
                         <p className='pt-5 fs2 '>We get you !</p>
@@ -62,7 +62,7 @@ const Home = (props) => {
                 </Row>
                 <div className='h-auto  py mt-4'>
 
-                    <Row className='px5 mt-5 rblock'>
+                    <Row className='px5 mt-5 rblock row no-gutter'>
 
                         <Col className='d-flex justify-content-center '>
                             <div className='mx-2 w25 h-100 d-block'>
@@ -72,7 +72,6 @@ const Home = (props) => {
                                 </div>
                                 <div className='mx-2 mt-2 w-100 hv1'>
                                     <img className="BigImage rounder align-self-center align-self-center" src={Image} alt="Italian Trulli" />
-
                                 </div>
                             </div>
 
@@ -81,7 +80,7 @@ const Home = (props) => {
 
                             </div>
                         </Col>
-                        <Col className='textcenter d-block mx1'>
+                        <Col className='textcenter d-block '>
                             <h1 className='fw-bold mb-2 mt2 mxauto'>Next Generation Agency</h1>
                             <p className='fs-4 grey'>We love talking to your future community, we're fluent in market & competitive research, we live for strong community.</p>
                             <p className='fs-4 grey'>We take utility and fanbase for more than buzzwords, and we don't shy away from using classic technologies when they're best for you.</p>
@@ -92,7 +91,7 @@ const Home = (props) => {
                     </Row>
                 </div>
 
-                <Row className='d-block '>
+                <Row className='d-block row no-gutter'>
                     <Col className='d-block text-center pt-5' id = "help">
 
                         <h1 className=''>We know how it feels, and we're here to help.</h1>
@@ -104,8 +103,8 @@ const Home = (props) => {
 
 
                     </Col>
-                    <div className='h-auto w-100 ml'>
-                        <div className="row rmx1 h-auto w-100">
+                    <div className='h-auto w-100 '>
+                        <div className="row no-gutter  h-auto w-100">
                             <motion.div
                                 initial={{  opacity: 0, scale: 0 }}
                                 whileInView={{  opacity: 1, scale: 1 }}
@@ -129,7 +128,7 @@ const Home = (props) => {
                                 <InfoContainer Image={operator} title={"Moderation & Speaker Services"} description={"Our moderation team has been among projects of all kinds and perfectly undestands the need of the community."} />
                             </motion.div>
                         </div>
-                        <div class="row">
+                        <div class="row no-gutter">
                             <motion.div
                                 initial={{ opacity: 0, scale: 0 }}
                                 whileInView={{ opacity: 1, scale: 1 }}
@@ -149,7 +148,7 @@ const Home = (props) => {
                                 <InfoContainer Image={email} title={"Email Marketing"} description={"People check their email every day. Our email marketing services will help you standout. Whether we create weekly newsletters to send to your subscribers or we set up a drip sequence to send the right automated emails."} />
                             </motion.div>
                         </div>
-                        <div class="row">
+                        <div class="row no-gutter">
                             <motion.div
                                 initial={{ opacity: 0, scale: 0 }}
                                 whileInView={{ opacity: 1, scale: 1 }}
@@ -173,7 +172,7 @@ const Home = (props) => {
                 </Row>
 
                 {/* RowInfo2 */}
-                <Row className='w-100 '>
+                <Row className='w-100 row no-gutter'>
 
                     <div className='d-block mx-auto text-center px-5 w50'>
                         
@@ -192,7 +191,7 @@ const Home = (props) => {
 
                 </Row>
 
-                <Row className='w-100 backImage d-flex justify-content-center jcc  h101' id="start">
+                <Row className='w-100 backImage d-flex justify-content-center jcc row no-gutter h101' id="start">
 
                     <div className='d-block mx-auto text-center h-auto w50 ml mt0'>
                         <p className='pt-5 fs2 '>Ready to start ?</p>

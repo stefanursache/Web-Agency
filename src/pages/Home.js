@@ -80,7 +80,7 @@ const Home = (props) => {
 
                             </div>
                         </Col>
-                        <Col className='textcenter d-block '>
+                        <Col className='textcenter h-auto d-block '>
                             <h1 className='fw-bold mb-2 mt2 mxauto'>Next Generation Agency</h1>
                             <p className='fs-4 grey'>We love talking to your future community, we're fluent in market & competitive research, we live for strong community.</p>
                             <p className='fs-4 grey'>We take utility and fanbase for more than buzzwords, and we don't shy away from using classic technologies when they're best for you.</p>
@@ -172,7 +172,7 @@ const Home = (props) => {
                 </Row>
 
                 {/* RowInfo2 */}
-                <Row className='w-100 row no-gutter'>
+                <Row className='w-100 hauto row no-gutter'>
 
                     <div className='d-block mx-auto text-center px-5 w50'>
                         

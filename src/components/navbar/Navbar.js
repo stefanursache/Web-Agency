@@ -16,10 +16,13 @@ function CollapsibleExample() {
             <Nav.Link href="#wegetyou">We get you</Nav.Link>
             <Nav.Link href="#help">We're here to help</Nav.Link>
             <Nav.Link href="#start">Start Now</Nav.Link>
-            <Nav.Link href="#pricing"><FaInstagram/></Nav.Link>
-            <Nav.Link href="#pricing"><FaDiscord/></Nav.Link>
+            <div className='display-flex'>
+            <Nav.Link  href="#pricing"><FaInstagram/></Nav.Link>
+            <Nav.Link className='ml' href="#pricing"><FaDiscord/></Nav.Link>
+            </div>
+           
           </Nav>
-          <Nav className="nv">
+          <Nav className="nv1">
             <Nav.Link href="#deets" className='navBarContactButton'>Contact</Nav.Link>
             
           </Nav>

@@ -230,6 +230,10 @@ height: 21rem !important;
 .no-padding {
   padding: 0 !important;
 }
+.display-flex{
+  display: flex;
+  
+}
 @media only screen and (max-width: 600px) {
   .fs70, .fs2{
     font-size: 2rem !important;
@@ -285,12 +289,31 @@ height: 21rem !important;
   }
   .nv{
       display: block;
-      justify-content: center;
-      align-items: center;
+      font-size: larger !important;
+      height: auto !important;
+  }
+  .nv1{
+    display: block;
+    justify-content: center;
+    align-items: center;
   }
   .navBarContactButton{
     border: 1px transparents white;
     border-radius: 10px;
     padding: 0.2rem 1rem !important;
+  }
+  .hauto{
+    height: auto !important;
+  }
+  Nav.Link{
+    font-size: 1rem !important;
+  }
+  .glassy{
+    background: rgba(40, 40, 40, 0.5);
+  
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.1px);
+  -webkit-backdrop-filter: blur(4.1px);
+  border: 1px solid rgba(40, 40, 40, 0.4)
   }
 }

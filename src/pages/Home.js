@@ -28,6 +28,7 @@ import company2 from '../assets/c2.png';
 import company3 from '../assets/c3.png';
 import company4 from '../assets/c4.png';
 import { motion } from "framer-motion";
+import Service from '../components/Service.js';
 const Home = (props) => {
     const navigate = useNavigate()
     return (
@@ -108,7 +109,7 @@ const Home = (props) => {
                             <motion.div
                                 initial={{  opacity: 0, scale: 0 }}
                                 whileInView={{  opacity: 1, scale: 1 }}
-                                transition={{ duration: .5, delay: .6 }}
+                                transition={{ duration: 0, delay: 0 }}
 
                                 class="col-sm h-auto">
                                 <InfoContainer Image={discord} title={"Discord building"} description={"We create astounding discord server that will match the value and vibe of your product"} />
@@ -116,14 +117,14 @@ const Home = (props) => {
                             <motion.div
                                 initial={{ opacity: 0, scale: 0 }}
                                 whileInView={{ opacity: 1, scale: 1 }}
-                                transition={{ duration: .5, delay: .6 }}
+                                transition={{ duration: 0, delay: 0 }}
                                 class="col-sm h-auto">
                                 <InfoContainer Image={security} title={"Maintenance & Security"} description={"We provide 24/7 maintenance to secure the discord server. Don't be scared of hackers, we got you!"} />
                             </motion.div>
                             <motion.div
                                 initial={{ opacity: 0, scale: 0 }}
                                 whileInView={{ opacity: 1, scale: 1 }}
-                                transition={{ duration: .5, delay: .6 }}
+                                transition={{ duration: 0, delay: 0 }}
                                 class="col-sm">
                                 <InfoContainer Image={operator} title={"Moderation & Speaker Services"} description={"Our moderation team has been among projects of all kinds and perfectly undestands the need of the community."} />
                             </motion.div>
@@ -132,19 +133,19 @@ const Home = (props) => {
                             <motion.div
                                 initial={{ opacity: 0, scale: 0 }}
                                 whileInView={{ opacity: 1, scale: 1 }}
-                                transition={{ duration: .5, delay: .6 }} class="col-sm">
+                                transition={{ duration: 0, delay: 0}} class="col-sm">
                                 <InfoContainer Image={social} title={"Social Media Management"} description={"We offer full-service social media management services. So, we transform social media presence with high-quality content daily activity, monitoring-engagement and increased followers."} />
                             </motion.div>
                             <motion.div
                                 initial={{ opacity: 0, scale: 0 }}
                                 whileInView={{ opacity: 1, scale: 1 }}
-                                transition={{ duration: .5, delay: .6 }} class="col-sm">
+                                transition={{ duration: 0, delay: 0 }} class="col-sm">
                                 <InfoContainer Image={influencer} title={"Influencers & Partnerships"} description={"Based on your goals, we shape the optimal strategy that is right for you. This includes connecting you with the top social media influencers, vloggers and content creators to help you engage your target audience"} />
                             </motion.div>
                             <motion.div
                                 initial={{ opacity: 0, scale: 0 }}
                                 whileInView={{ opacity: 1, scale: 1 }}
-                                transition={{ duration: .5, delay: .6 }} class="col-sm">
+                                transition={{ duration: 0, delay: 0 }} class="col-sm">
                                 <InfoContainer Image={email} title={"Email Marketing"} description={"People check their email every day. Our email marketing services will help you standout. Whether we create weekly newsletters to send to your subscribers or we set up a drip sequence to send the right automated emails."} />
                             </motion.div>
                         </div>
@@ -152,21 +153,22 @@ const Home = (props) => {
                             <motion.div
                                 initial={{ opacity: 0, scale: 0 }}
                                 whileInView={{ opacity: 1, scale: 1 }}
-                                transition={{ duration: .5, delay: .6 }} class="col-sm">
+                                transition={{ duration: 0, delay: 0 }} class="col-sm">
                                 <InfoContainer Image={website} title={"Website"} description={"Your website design should convert visitors to community, vastly improve your key metrics, adn display your project with pride."} />
                             </motion.div>
                             <motion.div
                                 initial={{ opacity: 0, scale: 0 }}
                                 whileInView={{ opacity: 1, scale: 1 }}
-                                transition={{ duration: .5, delay: .6 }} class="col-sm">
+                                transition={{ duration: 0, delay: 0 }} class="col-sm">
                                 <InfoContainer Image={smartContracts} title={"Smart Contracts"} description={"We create low gas fee optimized smart contracts with your desired features, all connected to a breathtaking mint page."} />
                             </motion.div>
                             <motion.div
                                 initial={{ opacity: 0, scale: 0 }}
                                 whileInView={{ opacity: 1, scale: 1 }}
-                                transition={{ duration: .5, delay: .6 }} class="col-sm">
+                                transition={{ duration: 0, delay: 0 }} class="col-sm">
                                 <InfoContainer Image={collection} title={"Collection generation"} description={"Random generated NFT's are one of the most popular types of Non-Fungible tokens. Our team will create the best code for generating your collection, let us know if you need help to design them too."} />
                             </motion.div>
+                            {/* <Service image = {collection} title={"Collection generation"} description={"Random generated NFT's are one of the most popular types of Non-Fungible tokens. Our team will create the best code for generating your collection, let us know if you need help to design them too."}></Service> */}
                         </div>
                     </div>
                 </Row>

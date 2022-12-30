@@ -9,7 +9,7 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import InfoContainer from '../components/InfoContainer';
 import InfoItem from '../components/InfoItem';
-import Image from '../assets/Asset1.svg'
+import Image from '../assets/SVG/Asset2.svg'
 import SmallContact from '../components/SmallContact';
 import {motion} from "framer-motion";
 const Services = (props) => {

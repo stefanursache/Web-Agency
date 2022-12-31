@@ -38,8 +38,8 @@ const Home = (props) => {
                 <div className='backImage2 row w100 h100 no-gutter' id='home'>
                     <Navbar />
                     <Col className='d-block text-center w-100 col1'>
-                        <p className='pt-5 fs70 '>Let’s put your idea </p>
-                        <p className='pt-2 fs70 '> on the blockchain</p>
+                        <p className='pt-5 fs70 '>Web 3 solutions </p>
+                        <p className='pt-2 fs70 '>for a brighter business future</p>
                         <p className='pt-2 grey ml'>From validation to production, we provide the all-in-one solution you need to transform your idea into reality, fit to the market and delightful to your community.</p>
 
 

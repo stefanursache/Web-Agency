@@ -4,11 +4,12 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {FaInstagram, FaDiscord} from "react-icons/fa";
+import logo from "../../assets/logo.png";
 function CollapsibleExample() {
   return (
     <Navbar  collapseOnSelect expand="lg"  variant="dark" className='fixed-top shadow glassy white-shadow'>
       <Container>
-        <Navbar.Brand href="#home">Agency</Navbar.Brand>
+        <Navbar.Brand href="#home"> <img src={logo} alt="..." height="36"/> </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto mx-auto nv">

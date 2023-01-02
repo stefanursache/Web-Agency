@@ -11,25 +11,30 @@
   /* Firefox */
 }
 
-.hrem{
+.hrem {
   height: 15rem;
 }
-.testwhite{
+
+.testwhite {
   background-color: white !important;
 }
-.navBarContactButton{
+
+.navBarContactButton {
   border: 1px solid white;
   border-radius: 10px;
   padding: 0.2rem 1rem !important;
 }
- .navBarContactButton:hover{
+
+.navBarContactButton:hover {
   background-color: white;
   color: black !important;
 }
-.ml{
+
+.ml {
   margin-left: 1.5rem;
 }
-w100{
+
+w100 {
   width: 100wh !important;
 }
 
@@ -37,7 +42,8 @@ w100{
   margin-left: 0;
   margin-right: 0;
 }
-.col1{
+
+.col1 {
   margin-top: 5% !important;
   height: 77vh !important;
   /* background-image: url('../src/assets/SVG/Asset2.svg');
@@ -45,56 +51,68 @@ w100{
   
   background-position: center; */
 }
-.w50{
+
+.w50 {
   width: 75% !important;
   height: 70vh !important;
-  
+
 }
-.grey{
+
+.grey {
   color: rgb(97, 109, 126) !important;
 }
-.noscroll{
+
+.noscroll {
   overflow-y: hidden;
 }
-.blue{
+
+.blue {
   color: blue;
 }
-.greyborder{
- 
+
+.greyborder {
+
   border: 1px solid #616d7e !important;
 }
-.underline{
-  text-decoration:underline !important;
+
+.underline {
+  text-decoration: underline !important;
 }
-.InfoContainerPic{
+
+.InfoContainerPic {
   height: 3rem;
   width: 3rem;
-  
+
 }
-.white-shadow{
+
+.white-shadow {
   box-shadow: 5px 5px 5px 3px rgba(32, 32, 33, 0.6) !important;
-padding:7px !important;
+  padding: 7px !important;
 }
-.InfoContainerColor{
+
+.InfoContainerColor {
   /* background-color: hsl(0, 0%, 10%); */
   background-color: black !important;
 }
-.BackColor2{
+
+.BackColor2 {
   background-color: #070818;
 
 }
-.backImage{
+
+.backImage {
   background-image: url('../src/assets/bg1.jpg');
   background-repeat: none;
   background-size: 200% 150%;
   position: center;
-  
+
 }
-.compImage{
+
+.compImage {
   width: 15%;
   aspect-ratio: 3/2;
   object-fit: contain;
-  
+
 }
 
 .whoweare span {
@@ -121,200 +139,249 @@ padding:7px !important;
   opacity: 1;
   right: 0;
 }
-.backImage2{
+
+.backImage2 {
   background-image: url('../src/assets/bg2.jpg');
   background-repeat: none;
   background-size: 150% 150%;
-  
+
 }
-.BackColor3{
+
+.BackColor3 {
   background-color: black;
 }
-.shadow{
-  color:white !important;
+
+.shadow {
+  color: white !important;
 }
-.infoItemCol1{
+
+.infoItemCol1 {
   width: 10% !important;
-  
+
 }
-.BigImage{
+
+.BigImage {
   height: 100%;
   width: 100%;
 }
-.h100vh{
+
+.h100vh {
   height: 85vh !important;
   margin-top: 5rem;
 }
-.VerticalAlign{
+
+.VerticalAlign {
   margin-top: 60% !important;
 }
-.blogpost{
+
+.blogpost {
   height: 30rem;
   width: 30rem;
   margin: 0 auto;
 }
-.BlogPostImage{
+
+.BlogPostImage {
   height: 60%;
   width: 100%;
 }
-.h30rem{
+
+.h30rem {
   height: 60vh !important;
 }
-.rounded{
-  
-  border: 1px solid rgba(97, 109, 126,.4);
+
+.rounded {
+
+  border: 1px solid rgba(97, 109, 126, .4);
   border-radius: 50% !important;
 }
-.opacity5{
+
+.opacity5 {
   opacity: .5;
 }
-.h80{
+
+.h80 {
   height: 80vh !important;
 }
-.transform1:hover{
+
+.transform1:hover {
   transform: scale(1.02);
   transition: .5s;
 }
-.fs70{
+
+.fs70 {
   font-size: 5rem !important;
-  font-weight:bolder;
+  font-weight: bolder;
 }
-.fs2{
+
+.fs2 {
   font-size: 3rem !important;
-  font-weight:bolder;
+  font-weight: bolder;
 }
-.hv1{
+
+.hv1 {
   background: rgba(40, 40, 40, 0.3);
 
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(2.2px);
--webkit-backdrop-filter: blur(2.2px);
-border: 1px solid rgba(40, 40, 40, 0.4);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.2px);
+  -webkit-backdrop-filter: blur(2.2px);
+  border: 1px solid rgba(40, 40, 40, 0.4);
 
-height: 10rem !important;
+  height: 10rem !important;
 }
-.glassy{
+
+.glassy {
   background: rgba(40, 40, 40, 0.38);
 
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(4.1px);
--webkit-backdrop-filter: blur(4.1px);
-border: 1px solid rgba(40, 40, 40, 0.4)
-}
-.hv2{
- 
-  background: rgba(40, 40, 40, 0.3);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(2.2px);
--webkit-backdrop-filter: blur(2.2px);
-border: 1px solid rgba(40, 40, 40, 0.4);
-height: 21rem !important;
-
-}
-.w25{
-  width: 25%;
-}
-.px5{
-  padding: 0 5rem;
-}
-.h100, .h100vh,.h101{
-  height: 100vh !important;
-}
-.jcc{
-  align-content: center;
-}
-.py{
-  padding: 10% 0;
-}
-.no-padding {
-  padding: 0 !important;
-}
-.display-flex{
-  display: flex;
-  
-}
-@media only screen and (max-width: 600px) {
-  .fs70, .fs2{
-    font-size: 2rem !important;
-  }
-  .backImage2{
-    background-size: 350% 150% !important;
-    background-repeat: none;
-  }
-  .col1{
-    margin-top: 0% !important;
-    padding-top: 40% !important;
-  }
-  .h100vh {
-    height: auto !important;
-  }
-  .h100{
-    height: 40% !important;
-  }
-  .w50{
-    width: 100% !important;
-  }
-  .rblock{
-    display: block !important;
-  }
-  .w25{
-    width: 50% !important;
-  }
-  .mxauto{
-    margin: 0 auto !important;
-  }
-  .px5{
-    padding: 0 !important;
-  }
-  
-  .mt2{
-    margin-top: 2rem !important;
-  }
-  .textcenter{
-    text-align: center !important;
-  }
-  
-  .ml{
-    margin-left: 2% !important;
-  }
-  .hrem{
-    height: 16rem;
-  }
-  .h101{
-    height: 20rem !important;
-  }
-  .jcc{
-    align-content:flex-start;
-  }
-  .nv{
-      display: block;
-      font-size: larger !important;
-      height: auto !important;
-  }
-  .nv1{
-    display: block;
-    justify-content:left;
-    align-items:flex-start;
-
-  }
-  .navBarContactButton{
-    border: 1px transparent white;
-    border-radius: 10px;
-    padding: 0rem 0rem !important;
-  }
-  .hauto{
-    height: auto !important;
-  }
-  Nav.Link{
-    font-size: 1rem !important;
-  }
-  .glassy{
-    background: rgba(40, 40, 40, 0.5);
-  
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(4.1px);
   -webkit-backdrop-filter: blur(4.1px);
   border: 1px solid rgba(40, 40, 40, 0.4)
+}
+
+.hv2 {
+
+  background: rgba(40, 40, 40, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.2px);
+  -webkit-backdrop-filter: blur(2.2px);
+  border: 1px solid rgba(40, 40, 40, 0.4);
+  height: 21rem !important;
+
+}
+
+.w25 {
+  width: 25%;
+}
+
+.px5 {
+  padding: 0 5rem;
+}
+
+.h100, .h100vh, .h101 {
+  height: 100vh !important;
+}
+
+.jcc {
+  align-content: center;
+}
+
+.py {
+  padding: 10% 0;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.ml {
+  margin-left: 2% !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .fs70, .fs2 {
+    font-size: 2rem !important;
+  }
+
+  .backImage2 {
+    background-size: 350% 150% !important;
+    background-repeat: none;
+  }
+
+  .col1 {
+    margin-top: 0% !important;
+    padding-top: 40% !important;
+  }
+
+  .h100vh {
+    height: auto !important;
+  }
+
+  .h100 {
+    height: 40% !important;
+  }
+
+  .w50 {
+    width: 100% !important;
+  }
+
+  .rblock {
+    display: block !important;
+  }
+
+  .w25 {
+    width: 50% !important;
+  }
+
+  .mxauto {
+    margin: 0 auto !important;
+  }
+
+  .px5 {
+    padding: 0 !important;
+  }
+
+  .mt2 {
+    margin-top: 2rem !important;
+  }
+
+  .textcenter {
+    text-align: center !important;
+  }
+
+  .ml {
+    margin-left: 2% !important;
+  }
+
+  .hrem {
+    height: 16rem;
+  }
+
+  .h101 {
+    height: 20rem !important;
+  }
+
+  .jcc {
+    align-content: flex-start;
+  }
+
+  .nv {
+    display: block;
+    font-size: larger !important;
+    height: auto !important;
+  }
+
+  .nv1 {
+    display: block;
+    justify-content: left;
+    align-items: flex-start;
+
+  }
+
+  .navBarContactButton {
+    border: 1px transparent white;
+    border-radius: 10px;
+    padding: 0rem 0rem !important;
+  }
+
+  .hauto {
+    height: auto !important;
+  }
+
+  Nav.Link {
+    font-size: 1rem !important;
+  }
+
+  .glassy {
+    background: rgba(40, 40, 40, 0.5);
+
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.1px);
+    -webkit-backdrop-filter: blur(4.1px);
+    border: 1px solid rgba(40, 40, 40, 0.4)
   }
 }

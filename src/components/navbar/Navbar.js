@@ -16,7 +16,7 @@ function CollapsibleExample() {
             <Nav.Link href="/" >Home</Nav.Link>
             <Nav.Link href="#wegetyou">We get you</Nav.Link>
             <Nav.Link href="#help">We're here to help</Nav.Link>
-            <Nav.Link href="#start">Start Now</Nav.Link>
+            <Nav.Link href="#start">Book a call</Nav.Link>
             <div className='display-flex'>
             <Nav.Link  href="#pricing"><FaInstagram/></Nav.Link>
             <Nav.Link className='ml' href="#pricing"><FaDiscord/></Nav.Link>

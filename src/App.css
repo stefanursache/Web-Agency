@@ -1,5 +1,10 @@
+@font-face {
+  font-family: 'BMW';
+  src: url(../src/assets/Font/BMW-Helvetica-Bold.ttf);
+}
+
 * {
-  font-family: 'ROBOTO';
+  font-family: BMW ;
   box-sizing: border-box;
   margin: 0;
   padding: 0;

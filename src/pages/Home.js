@@ -52,7 +52,10 @@ const Home = (props) => {
                 <Row className='w-100 h-auto row no-gutter' id="wegetyou">
 
                     <div className='d-block h-auto mx-auto text-center px-5 w50 noscroll ml'>
-                        <p className='pt-5 fs2 '>We get you !</p>
+                    <motion.p 
+                        initial={{  opacity: 0, scale: 0 }}
+                        whileInView={{  opacity: 1, scale: 1 }}
+                        transition={{ duration: .8, delay: 0 }} className='pt-5 fs2 '>We get you !</motion.p >
                         <p className='pt-2 fs-4 grey'>Every entrepreneur has that inner urge to innovate, to bring their contribution to the world, and you make no exception.</p>
                         <p className='pt-2 fs-4 grey'>Finding the right talent for pursuing your idea can be rather problematic though, and it may take too much time. It can take months until you have your team assembled, while you're bleeding money.</p>
                         <p className='pt-2 fs-4 grey'>We know your struggles, it’s hard to build a team that would take care of your Web3 project, especially if you dream big and have a long term vision. Here is where we come into play and we are ready to share with you our strategies and code implementation.</p>
@@ -82,7 +85,11 @@ const Home = (props) => {
                             </div>
                         </Col>
                         <Col className='textcenter h-auto d-block '>
-                            <h1 className='fw-bold mb-2 mt2 mxauto'>Next Generation Agency</h1>
+                        <motion.h1 
+                        initial={{  opacity: 0, scale: 0 }}
+                        whileInView={{  opacity: 1, scale: 1 }}
+                        transition={{ duration: .5, delay: 0 }}
+                        className='fw-bold mb-2 mt2 mxauto'>Next Generation Agency </motion.h1>
                             <p className='fs-4 grey'>We love talking to your future community, we're fluent in market & competitive research, we live for strong community.</p>
                             <p className='fs-4 grey'>We take utility and fanbase for more than buzzwords, and we don't shy away from using classic technologies when they're best for you.</p>
 
@@ -95,7 +102,10 @@ const Home = (props) => {
                 <Row className='d-block row no-gutter'>
                     <Col className='d-block text-center pt-5' id = "help">
 
-                        <h1 className=''>We know how it feels, and we're here to help.</h1>
+                    <motion.h1 
+                        initial={{  opacity: 0, scale: 0 }}
+                        whileInView={{  opacity: 1, scale: 1 }}
+                        transition={{ duration: .8, delay: 0 }} className=''>We know how it feels, and we're here to help.</motion.h1>
                         <p className=' fs-5 grey'>Welcome to our all-in-one solution for your WEB3 business</p>
 
                         <p className=' grey'>We got the services you need to make your project outstand in front of others.</p>

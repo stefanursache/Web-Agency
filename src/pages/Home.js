@@ -34,7 +34,7 @@ const Home = (props) => {
     return (
         <Fragment>
 
-            <div  className='BackColor2  text-white h-auto w-100 no-padding'>
+            <div className='BackColor2  text-white h-auto w-100 no-padding'>
                 <div className='backImage2 row w100 h100 no-gutter' id='home'>
                     <Navbar />
                     <Col className='d-block text-center w-100 col1'>
@@ -52,13 +52,22 @@ const Home = (props) => {
                 <Row className='w-100 h-auto row no-gutter' id="wegetyou">
 
                     <div className='d-block h-auto mx-auto text-center px-5 w50 noscroll ml'>
-                    <motion.p 
-                        initial={{  opacity: 0, scale: 0 }}
-                        whileInView={{  opacity: 1, scale: 1 }}
-                        transition={{ duration: .8, delay: 0 }} className='pt-5 fs2 '>We get you !</motion.p >
-                        <p className='pt-2 fs-4 grey'>Every entrepreneur has that inner urge to innovate, to bring their contribution to the world, and you make no exception.</p>
-                        <p className='pt-2 fs-4 grey'>Finding the right talent for pursuing your idea can be rather problematic though, and it may take too much time. It can take months until you have your team assembled, while you're bleeding money.</p>
-                        <p className='pt-2 fs-4 grey'>We know your struggles, it’s hard to build a team that would take care of your Web3 project, especially if you dream big and have a long term vision. Here is where we come into play and we are ready to share with you our strategies and code implementation.</p>
+                        <motion.p
+                            initial={{ opacity: 0, scale: 0 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            transition={{ duration: .5, delay: 0 }} className='pt-5 fs2 '>We get you !</motion.p >
+                        <motion.p
+                            initial={{ opacity: 0, scale: 0 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            transition={{ duration: .9, delay: 0 }} className='pt-2 fs-4 grey'>Every entrepreneur has that inner urge to innovate, to bring their contribution to the world, and you make no exception.</motion.p >
+                        <motion.p
+                            initial={{ opacity: 0, scale: 0 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            transition={{ duration: 1.2, delay: 0 }} className='pt-2 fs-4 grey'>Finding the right talent for pursuing your idea can be rather problematic though, and it may take too much time. It can take months until you have your team assembled, while you're bleeding money.</motion.p >
+                        <motion.p
+                            initial={{ opacity: 0, scale: 0 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            transition={{ duration: 1.4, delay: 0 }} className='pt-2 fs-4 grey'>We know your struggles, it’s hard to build a team that would take care of your Web3 project, especially if you dream big and have a long term vision. Here is where we come into play and we are ready to share with you our strategies and code implementation.</motion.p >
                         <Button href='/services' variant="" size="lg" className='greyborder fs-5 px-5 text-center whoweare grey'><span className='mt-1'>Who are we?</span> </Button>
 
                     </div>
@@ -70,55 +79,60 @@ const Home = (props) => {
 
                         <Col className='d-flex justify-content-center '>
                             <div className='mx-2 w25 h-100 d-block'>
-                                <div className='mx-2 rounder w-100 hv1'>
+                                <div className=' rounder w-100 hv1'>
                                     <img className="BigImage rounder align-self-center align-self-center" src={Image} alt="Italian Trulli" />
 
                                 </div>
-                                <div className='mx-2 mt-2 w-100 hv1'>
+                                <div className='rounder mt-2 w-100 hv1'>
                                     <img className="BigImage rounder align-self-center align-self-center" src={Image} alt="Italian Trulli" />
                                 </div>
                             </div>
 
-                            <div className='mx-2 w-50 hv2'>
+                            <div className='rounder mx-2 w-50 hv2'>
                                 <img className="BigImage rounder align-self-center align-self-center" src={Image} alt="Italian Trulli" />
 
                             </div>
                         </Col>
                         <Col className='textcenter h-auto d-block '>
-                        <motion.h1 
-                        initial={{  opacity: 0, scale: 0 }}
-                        whileInView={{  opacity: 1, scale: 1 }}
-                        transition={{ duration: .5, delay: 0 }}
-                        className='fw-bold mb-2 mt2 mxauto'>Next Generation Agency </motion.h1>
-                            <p className='fs-4 grey'>We love talking to your future community, we're fluent in market & competitive research, we live for strong community.</p>
-                            <p className='fs-4 grey'>We take utility and fanbase for more than buzzwords, and we don't shy away from using classic technologies when they're best for you.</p>
+                            <motion.h1
+                                initial={{ opacity: 0, scale: 0 }}
+                                whileInView={{ opacity: 1, scale: 1 }}
+                                transition={{ duration: .5, delay: 0 }}
+                                className='fw-bold mb-2 mt2 mxauto'>Next Generation Agency </motion.h1>
+                            <motion.p
+                               initial={{x:"50%", opacity: 0, scale: 0.5 }}
+                               whileInView={{x:0, opacity: 1, scale: 1 }}
+                                transition={{ duration: .7, delay: 0 }} className='fs-4 grey'>We love talking to your future community, we're fluent in market & competitive research, we live for strong community.</motion.p>
+                            <motion.p
+                               initial={{x:"50%", opacity: 0, scale: 0.5 }}
+                               whileInView={{x:0, opacity: 1, scale: 1 }}
+                                transition={{ duration: .8, delay: 0 }} className='fs-4 grey'>We take utility and fanbase for more than buzzwords, and we don't shy away from using classic technologies when they're best for you.</motion.p>
 
-                            <p className='fs-4 grey'>We believe in analytics, and in data-driven decisions. Guesswork is not an option when it comes to your success.</p>
+                            <motion.p
+                               initial={{x:"50%", opacity: 0, scale: 0.5 }}
+                               whileInView={{x:0, opacity: 1, scale: 1 }}
+                                transition={{ duration: .9, delay: 0 }} className='fs-4 grey'>We believe in analytics, and in data-driven decisions. Guesswork is not an option when it comes to your success.</motion.p>
                         </Col>
 
                     </Row>
                 </div>
 
                 <Row className='d-block row no-gutter'>
-                    <Col className='d-block text-center pt-5' id = "help">
+                    <Col className='d-block text-center pt-5' id="help">
 
-                    <motion.h1 
-                        initial={{  opacity: 0, scale: 0 }}
-                        whileInView={{  opacity: 1, scale: 1 }}
-                        transition={{ duration: .8, delay: 0 }} className=''>We know how it feels, and we're here to help.</motion.h1>
+                        <motion.h1
+                            initial={{ opacity: 0, scale: 0.5 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            transition={{ duration: .8, delay: 0 }} className=''>We know how it feels, and we're here to help.</motion.h1>
                         <p className=' fs-5 grey'>Welcome to our all-in-one solution for your WEB3 business</p>
 
                         <p className=' grey'>We got the services you need to make your project outstand in front of others.</p>
-
-
-
-
                     </Col>
                     <div className='h-auto w-100 '>
                         <div className="row no-gutter  h-auto w-100">
                             <motion.div
-                                initial={{  opacity: 0, scale: 0 }}
-                                whileInView={{  opacity: 1, scale: 1 }}
+                                initial={{ opacity: 0, scale: 0 }}
+                                whileInView={{ opacity: 1, scale: 1 }}
                                 transition={{ duration: 0, delay: 0 }}
 
                                 class="col-sm h-auto">
@@ -143,7 +157,7 @@ const Home = (props) => {
                             <motion.div
                                 initial={{ opacity: 0, scale: 0 }}
                                 whileInView={{ opacity: 1, scale: 1 }}
-                                transition={{ duration: 0, delay: 0}} class="col-sm">
+                                transition={{ duration: 0, delay: 0 }} class="col-sm">
                                 <InfoContainer Image={social} title={"Social Media Management"} description={"We offer full-service social media management services. So, we transform social media presence with high-quality content daily activity, monitoring-engagement and increased followers."} />
                             </motion.div>
                             <motion.div
@@ -187,17 +201,23 @@ const Home = (props) => {
                 <Row className='w-100 hauto row no-gutter'>
 
                     <div className='d-block mx-auto text-center px-5 w50'>
-                        
 
-                        <p className='pt-2 fs-4 grey ml'>Many teams have trusted us with </p>
-                        <p className='pt-2 fs-4 grey ml'>We know your struggles, it’s hard to build a team that would take care of your Web3 project, especially if you dream big and have a long term vision. Here is where we come into play and we are ready to share with you our strategies and code implementation.</p>
-                       
+
+                    <motion.p
+                               initial={{ opacity: 0, scale: 0.5 }}
+                               whileInView={{ opacity: 1, scale: 1 }}
+                                transition={{ duration: .7, delay: 0 }} className='pt-2 fs-4 grey ml'>Many teams have trusted us with </motion.p>
+                        <motion.p
+                               initial={{ opacity: 0, scale: 0.5 }}
+                               whileInView={{ opacity: 1, scale: 1 }}
+                                transition={{ duration: .9, delay: 0 }} className='pt-2 fs-4 grey ml'>We know your struggles, it’s hard to build a team that would take care of your Web3 project, especially if you dream big and have a long term vision. Here is where we come into play and we are ready to share with you our strategies and code implementation.</motion.p>
+
                         <p className='pt-2 fs-4 '>Trusted by these companies</p>
                         <div className='d-flex w-100 justify-content-between mt-5'>
-                        <img className="compImage" src={company1} alt="Italian Trulli" />
-                        <img className="compImage" src={company2} alt="Italian Trulli" />
-                        <img className="compImage" src={company3} alt="Italian Trulli" />
-                        <img className="compImage" src={company4} alt="Italian Trulli" />
+                            <img className="compImage" src={company1} alt="Italian Trulli" />
+                            <img className="compImage" src={company2} alt="Italian Trulli" />
+                            <img className="compImage" src={company3} alt="Italian Trulli" />
+                            <img className="compImage" src={company4} alt="Italian Trulli" />
                         </div>
                     </div>
 
@@ -209,7 +229,7 @@ const Home = (props) => {
                         <p className='pt-5 fs2 '>Ready to start ?</p>
                         <p className='pt-2 fs-4 grey'>Let's book a call and let's talk ideas. </p>
 
-                        <Button  variant="" size="lg" className='greyborder fs-5 px-5   grey'>Contact us Now!</Button>
+                        <Button variant="" size="lg" className='greyborder fs-5 px-5   grey'>Contact us Now!</Button>
 
                     </div>
 

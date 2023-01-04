@@ -4,7 +4,7 @@
 }
 
 * {
-  font-family: BMW ;
+  font-family: BMW;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -151,7 +151,12 @@ w100 {
   background-size: 150% 150%;
 
 }
+.backImage3 {
+  background-image: url('../src/assets/bg3.jpg');
+  background-repeat: none;
+  background-size: 100% 100%;
 
+}
 .BackColor3 {
   background-color: black;
 }
@@ -194,6 +199,21 @@ w100 {
   height: 60vh !important;
 }
 
+.bgg {
+  background: rgba(0, 0, 0, 0.5);
+  
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+
+  border: 1px solid transparent;
+  border-radius: 25px !important;
+}
+.rounder {
+
+  border: 1px solid rgba(97, 109, 126, .4);
+  border-radius: 25px !important;
+}
 .rounded {
 
   border: 1px solid rgba(97, 109, 126, .4);

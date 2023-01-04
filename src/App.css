@@ -318,8 +318,8 @@ w100 {
   }
 
   .col1 {
-    margin-top: 0% !important;
-    padding-top: 40% !important;
+    margin-bottom: 45% !important;
+    padding-top: 50% !important;
   }
 
   .h100vh {
@@ -327,7 +327,7 @@ w100 {
   }
 
   .h100 {
-    height: 40% !important;
+    height: 70% !important;
   }
 
   .w50 {
@@ -363,7 +363,7 @@ w100 {
   }
 
   .hrem {
-    height: 16rem;
+    height: 17rem;
   }
 
   .h101 {

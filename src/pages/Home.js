@@ -98,7 +98,7 @@ const Home = (props) => {
                                 initial={{ opacity: 0, scale: 0 }}
                                 whileInView={{ opacity: 1, scale: 1 }}
                                 transition={{ duration: .5, delay: 0 }}
-                                className='fw-bold mb-2 mt2 mxauto'>Next Generation Agency </motion.h1>
+                                className='fw-bold h-auto mb-2 mt2 mxauto noscroll'>Next Generation Agency </motion.h1>
                             <motion.p
                                initial={{x:"50%", opacity: 0, scale: 0.5 }}
                                whileInView={{x:0, opacity: 1, scale: 1 }}
@@ -123,7 +123,7 @@ const Home = (props) => {
                         <motion.h1
                             initial={{ opacity: 0, scale: 0.5 }}
                             whileInView={{ opacity: 1, scale: 1 }}
-                            transition={{ duration: .8, delay: 0 }} className=''>We know how it feels, and we're here to help.</motion.h1>
+                            transition={{ duration: .8, delay: 0 }} className='h-auto noscroll'>We know how it feels, and we're here to help.</motion.h1>
                         <p className=' fs-5 grey'>Welcome to our all-in-one solution for your WEB3 business</p>
 
                         <p className=' grey'>We got the services you need to make your project outstand in front of others.</p>

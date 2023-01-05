@@ -129,67 +129,67 @@ const Home = (props) => {
                         <p className=' grey'>We got the services you need to make your project outstand in front of others.</p>
                     </Col>
                     <div className='h-auto w-100 '>
-                        <div className="row no-gutter  h-auto w-100">
+                        <div className="row no-gutter noscroll h-auto w-100">
                             <motion.div
-                                initial={{ opacity: 0, scale: 0 }}
-                                whileInView={{ opacity: 1, scale: 1 }}
-                                transition={{ duration: 0, delay: 0 }}
+                                initial={{y:"50%", opacity: 0, scale: 1 }}
+                                whileInView={{y:0, opacity: 1, scale: 1 }}
+                                transition={{ duration: 0.5, delay: 0 }}
 
                                 class="col-sm h-auto">
                                 <InfoContainer Image={discord} title={"Discord building"} description={"We create astounding discord server that will match the value and vibe of your product"} />
                             </motion.div>
                             <motion.div
-                                initial={{ opacity: 0, scale: 0 }}
-                                whileInView={{ opacity: 1, scale: 1 }}
-                                transition={{ duration: 0, delay: 0 }}
+                                initial={{y:"50%", opacity: 0, scale: 1 }}
+                                whileInView={{y:0, opacity: 1, scale: 1 }}
+                                transition={{ duration: 0.7, delay: 0 }}
                                 class="col-sm h-auto">
                                 <InfoContainer Image={security} title={"Maintenance & Security"} description={"We provide 24/7 maintenance to secure the discord server. Don't be scared of hackers, we got you!"} />
                             </motion.div>
                             <motion.div
-                                initial={{ opacity: 0, scale: 0 }}
-                                whileInView={{ opacity: 1, scale: 1 }}
-                                transition={{ duration: 0, delay: 0 }}
+                                 initial={{y:"50%", opacity: 0, scale: 1 }}
+                                 whileInView={{y:0, opacity: 1, scale: 1 }}
+                                transition={{ duration: 0.9, delay: 0 }}
                                 class="col-sm">
                                 <InfoContainer Image={operator} title={"Moderation & Speaker Services"} description={"Our moderation team has been among projects of all kinds and perfectly undestands the need of the community."} />
                             </motion.div>
                         </div>
-                        <div class="row no-gutter">
+                        <div class="row no-gutter noscroll h-auto">
                             <motion.div
-                                initial={{ opacity: 0, scale: 0 }}
-                                whileInView={{ opacity: 1, scale: 1 }}
-                                transition={{ duration: 0, delay: 0 }} class="col-sm">
+                                 initial={{y:"50%", opacity: 0, scale: 1 }}
+                                 whileInView={{y:0, opacity: 1, scale: 1 }}
+                                transition={{ duration: 0.5, delay: 0 }} class="col-sm">
                                 <InfoContainer Image={social} title={"Social Media Management"} description={"We offer full-service social media management services. So, we transform social media presence with high-quality content daily activity, monitoring-engagement and increased followers."} />
                             </motion.div>
                             <motion.div
-                                initial={{ opacity: 0, scale: 0 }}
-                                whileInView={{ opacity: 1, scale: 1 }}
-                                transition={{ duration: 0, delay: 0 }} class="col-sm">
+                                 initial={{y:"50%", opacity: 0, scale: 1 }}
+                                 whileInView={{y:0, opacity: 1, scale: 1 }}
+                                transition={{ duration: 0.7, delay: 0 }} class="col-sm">
                                 <InfoContainer Image={influencer} title={"Influencers & Partnerships"} description={"Based on your goals, we shape the optimal strategy that is right for you. This includes connecting you with the top social media influencers, vloggers and content creators to help you engage your target audience"} />
                             </motion.div>
                             <motion.div
-                                initial={{ opacity: 0, scale: 0 }}
-                                whileInView={{ opacity: 1, scale: 1 }}
-                                transition={{ duration: 0, delay: 0 }} class="col-sm">
+                                 initial={{y:"50%", opacity: 0, scale: 1 }}
+                                 whileInView={{y:0, opacity: 1, scale: 1 }}
+                                transition={{ duration: 0.9, delay: 0 }} class="col-sm">
                                 <InfoContainer Image={email} title={"Email Marketing"} description={"People check their email every day. Our email marketing services will help you standout. Whether we create weekly newsletters to send to your subscribers or we set up a drip sequence to send the right automated emails."} />
                             </motion.div>
                         </div>
-                        <div class="row no-gutter">
+                        <div class="row noscroll h-auto no-gutter">
                             <motion.div
-                                initial={{ opacity: 0, scale: 0 }}
-                                whileInView={{ opacity: 1, scale: 1 }}
-                                transition={{ duration: 0, delay: 0 }} class="col-sm">
+                                 initial={{y:"50%", opacity: 0, scale: 1 }}
+                                 whileInView={{y:0, opacity: 1, scale: 1 }}
+                                transition={{ duration: 0.5, delay: 0 }} class="col-sm">
                                 <InfoContainer Image={website} title={"Website"} description={"Your website design should convert visitors to community, vastly improve your key metrics, adn display your project with pride."} />
                             </motion.div>
                             <motion.div
-                                initial={{ opacity: 0, scale: 0 }}
-                                whileInView={{ opacity: 1, scale: 1 }}
-                                transition={{ duration: 0, delay: 0 }} class="col-sm">
+                                 initial={{y:"50%", opacity: 0, scale: 1 }}
+                                 whileInView={{y:0, opacity: 1, scale: 1 }}
+                                transition={{ duration: 0.7, delay: 0 }} class="col-sm">
                                 <InfoContainer Image={smartContracts} title={"Smart Contracts"} description={"We create low gas fee optimized smart contracts with your desired features, all connected to a breathtaking mint page."} />
                             </motion.div>
                             <motion.div
-                                initial={{ opacity: 0, scale: 0 }}
-                                whileInView={{ opacity: 1, scale: 1 }}
-                                transition={{ duration: 0, delay: 0 }} class="col-sm">
+                                 initial={{y:"50%", opacity: 0, scale: 1 }}
+                                 whileInView={{y:0, opacity: 1, scale: 1 }}
+                                transition={{ duration: 0.9, delay: 0 }} class="col-sm">
                                 <InfoContainer Image={collection} title={"Collection generation"} description={"Random generated NFT's are one of the most popular types of Non-Fungible tokens. Our team will create the best code for generating your collection, let us know if you need help to design them too."} />
                             </motion.div>
                             {/* <Service image = {collection} title={"Collection generation"} description={"Random generated NFT's are one of the most popular types of Non-Fungible tokens. Our team will create the best code for generating your collection, let us know if you need help to design them too."}></Service> */}

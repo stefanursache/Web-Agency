@@ -29,6 +29,9 @@ import company3 from '../assets/c3.png';
 import company4 from '../assets/c4.png';
 import { motion } from "framer-motion";
 import Service from '../components/Service.js';
+import IncreasingNumber from '../components/IncreasingNumber';
+import CalendlyWidget from '../components/CalendlyWidget';
+
 const Home = (props) => {
     const navigate = useNavigate()
     return (
@@ -79,19 +82,34 @@ const Home = (props) => {
 
                         <Col className='d-flex justify-content-center '>
                             <div className='mx-2 w25 h-100 d-block'>
-                                <div className=' rounder w-100 hv1'>
-                                    <img className="BigImage rounder align-self-center align-self-center" src={Image} alt="Italian Trulli" />
-
+                                <div className='text-center pt-4 rounder w-100 hv1'>
+                                    {/* <img className="BigImage rounder align-self-center align-self-center" src={Image} alt="Italian Trulli" /> */}
+                                    <IncreasingNumber intervalTime={50} lastNumber={96} afterText={"%"}></IncreasingNumber>
+                                    <p>Happy Clients</p>
                                 </div>
-                                <div className='rounder mt-2 w-100 hv1'>
-                                    <img className="BigImage rounder align-self-center align-self-center" src={Image} alt="Italian Trulli" />
+                                <div className=' text-center pt-4 rounder mt-2 w-100 hv1'>
+                                    {/* <img className="BigImage rounder align-self-center align-self-center" src={Image} alt="Italian Trulli" /> */}
+                                    <IncreasingNumber intervalTime={150} lastNumber={3} afterText={"years"}></IncreasingNumber>
+                                    <p>in web3 business</p>
+                                </div>
+                            </div>
+                            <div className='mx-2 w25 h-100 d-block'>
+                                <div className='text-center pt-4 rounder w-100 hv1'>
+                                    {/* <img className="BigImage rounder align-self-center align-self-center" src={Image} alt="Italian Trulli" /> */}
+                                    <IncreasingNumber intervalTime={100} lastNumber={1} afterText={"M+"}></IncreasingNumber>
+                                    <p>People in our communities</p>
+                                </div>
+                                <div className=' text-center pt-4 rounder mt-2 w-100 hv1'>
+                                    {/* <img className="BigImage rounder align-self-center align-self-center" src={Image} alt="Italian Trulli" /> */}
+                                    <IncreasingNumber intervalTime={100} lastNumber={50} afterText={"+"}></IncreasingNumber>
+                                    <p>Finished projects</p>
                                 </div>
                             </div>
 
-                            <div className='rounder mx-2 w-50 hv2'>
+                            {/* <div className='rounder mx-2 w-50 hv2'>
                                 <img className="BigImage rounder align-self-center align-self-center" src={Image} alt="Italian Trulli" />
 
-                            </div>
+                            </div> */}
                         </Col>
                         <Col className='textcenter h-auto d-block '>
                             <motion.h1
@@ -228,7 +246,7 @@ const Home = (props) => {
                     <div className='d-block mx-auto text-center h-auto w50 ml mt0'>
                         <p className='pt-5 fs2 '>Ready to start ?</p>
                         <p className='pt-2 fs-4 grey'>Let's book a call and let's talk ideas. </p>
-
+                        
                         <Button variant="" size="lg" className='greyborder fs-5 px-5   grey'>Contact us Now!</Button>
 
                     </div>

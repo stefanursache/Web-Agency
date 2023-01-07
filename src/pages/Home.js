@@ -31,6 +31,7 @@ import { motion } from "framer-motion";
 import Service from '../components/Service.js';
 import IncreasingNumber from '../components/IncreasingNumber';
 import CalendlyWidget from '../components/CalendlyWidget';
+import { InlineWidget } from "react-calendly";
 
 const Home = (props) => {
     const navigate = useNavigate()
@@ -216,9 +217,9 @@ const Home = (props) => {
                 </Row>
 
                 {/* RowInfo2 */}
-                <Row className='w-100 hauto row no-gutter'>
+                <Row className='w-100 h-auto noscroll row no-gutter'>
 
-                    <div className='d-block mx-auto text-center px-5 w50'>
+                    <div className='d-block mx-auto h-auto noscroll text-center px-5 w50'>
 
 
                     <motion.p
@@ -241,14 +242,15 @@ const Home = (props) => {
 
                 </Row>
 
-                <Row className='w-100 backImage d-flex justify-content-center jcc row no-gutter h101' id="start">
+                <Row className='w-100 backImage d-flex h-auto noscroll justify-content-center mb-2 jcc row no-gutter ' id="start">
 
-                    <div className='d-block mx-auto text-center h-auto w50 ml mt0'>
+                    <div className='d-block mx-auto text-center h-100 noscroll w50  mt0'>
                         <p className='pt-5 fs2 '>Ready to start ?</p>
                         <p className='pt-2 fs-4 grey'>Let's book a call and let's talk ideas. </p>
+                        <InlineWidget className="noscroll h-auto" url="https://calendly.com/nflagency/30min" />
                         
-                        <Button variant="" size="lg" className='greyborder fs-5 px-5   grey'>Contact us Now!</Button>
-
+                        {/* <Button variant="" size="lg" className='greyborder fs-5 px-5   grey'>Contact us Now!</Button>
+                         */}
                     </div>
 
                 </Row>

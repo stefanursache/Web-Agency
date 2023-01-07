@@ -15,7 +15,17 @@
   scrollbar-width: none;
   /* Firefox */
 }
-
+.calendly-inline-widget, .simplebar-content-wrapper {
+  overflow: hidden !important;
+  height:750px !important;
+}
+.simplebar-content-wrapper{
+  height: auto !important;
+}
+.calendly-inline-widget{
+  min-width:320px !important;
+ 
+}
 .hrem {
   height: 15rem;
 }

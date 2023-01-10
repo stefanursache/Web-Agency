@@ -9,7 +9,7 @@ function CollapsibleExample() {
   return (
     <Navbar  collapseOnSelect expand="lg"  variant="dark" className='fixed-top shadow glassy white-shadow'>
       <Container>
-        <Navbar.Brand href="#home"> <img src={logo} alt="..." height="36"/> </Navbar.Brand>
+        <Navbar.Brand href="#home"> <img src={logo} alt="..." height="45"/> </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto mx-auto nv">

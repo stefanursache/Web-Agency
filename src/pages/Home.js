@@ -83,24 +83,24 @@ const Home = (props) => {
 
                         <Col className='d-flex justify-content-center '>
                             <div className='mx-2 w25 h-100 d-block'>
-                                <div className='text-center pt-4 rounder w-100 hv1'>
+                                <div className='text-center pt-4 noscroll rounder w-100 hv1'>
                                     {/* <img className="BigImage rounder align-self-center align-self-center" src={Image} alt="Italian Trulli" /> */}
                                     <IncreasingNumber intervalTime={50} lastNumber={96} afterText={"%"}></IncreasingNumber>
                                     <p>Happy Clients</p>
                                 </div>
-                                <div className=' text-center pt-4 rounder mt-2 w-100 hv1'>
+                                <div className=' text-center pt-4 noscroll rounder mt-2 w-100 hv1'>
                                     {/* <img className="BigImage rounder align-self-center align-self-center" src={Image} alt="Italian Trulli" /> */}
                                     <IncreasingNumber intervalTime={150} lastNumber={3} afterText={"years"}></IncreasingNumber>
                                     <p>in web3 business</p>
                                 </div>
                             </div>
                             <div className='mx-2 w25 h-100 d-block'>
-                                <div className='text-center pt-4 rounder w-100 hv1'>
+                                <div className='text-center pt-4 noscroll rounder w-100 hv1'>
                                     {/* <img className="BigImage rounder align-self-center align-self-center" src={Image} alt="Italian Trulli" /> */}
                                     <IncreasingNumber intervalTime={100} lastNumber={1} afterText={"M+"}></IncreasingNumber>
                                     <p>People in our communities</p>
                                 </div>
-                                <div className=' text-center pt-4 rounder mt-2 w-100 hv1'>
+                                <div className=' text-center pt-4 noscroll rounder mt-2 w-100 hv1'>
                                     {/* <img className="BigImage rounder align-self-center align-self-center" src={Image} alt="Italian Trulli" /> */}
                                     <IncreasingNumber intervalTime={100} lastNumber={50} afterText={"+"}></IncreasingNumber>
                                     <p>Finished projects</p>
@@ -231,13 +231,13 @@ const Home = (props) => {
                                whileInView={{ opacity: 1, scale: 1 }}
                                 transition={{ duration: .9, delay: 0 }} className='pt-2 fs-4 grey ml'>We know your struggles, it’s hard to build a team that would take care of your Web3 project, especially if you dream big and have a long term vision. Here is where we come into play and we are ready to share with you our strategies and code implementation.</motion.p>
 
-                        <p className='pt-2 fs-4 '>Trusted by these companies</p>
+                        {/* <p className='pt-2 fs-4 '>Trusted by these companies</p>
                         <div className='d-flex w-100 justify-content-between mt-5'>
                             <img className="compImage" src={company1} alt="Italian Trulli" />
                             <img className="compImage" src={company2} alt="Italian Trulli" />
                             <img className="compImage" src={company3} alt="Italian Trulli" />
                             <img className="compImage" src={company4} alt="Italian Trulli" />
-                        </div>
+                        </div> */}
                     </div>
 
                 </Row>

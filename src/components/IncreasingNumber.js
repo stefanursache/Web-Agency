@@ -16,7 +16,7 @@ const IncreasingNumber = ({ intervalTime, lastNumber,afterText }) => {
   }, [number, intervalTime, lastNumber]); // only re-run the effect when the number, intervalTime, or lastNumber state variables change
 
   return (
-    <div>
+    <div className='noscroll'>
       <h1>{number} {afterText}</h1>
     </div>
   );

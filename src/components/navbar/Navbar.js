@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {FaInstagram, FaDiscord} from "react-icons/fa";
+import { FaDiscord,FaTwitter, FaLinkedin} from "react-icons/fa";
 import logo from "../../assets/logo.png";
 function CollapsibleExample() {
   return (
@@ -18,8 +18,8 @@ function CollapsibleExample() {
             <Nav.Link href="#help">We're here to help</Nav.Link>
             <Nav.Link href="#start">Book a call</Nav.Link>
             <div className='display-flex'>
-            <Nav.Link  href="#pricing"><FaInstagram/></Nav.Link>
-            <Nav.Link className='ml' href="#pricing"><FaDiscord/></Nav.Link>
+            <Nav.Link  href="#pricing"><FaTwitter/></Nav.Link>
+            <Nav.Link className='ml' href="#pricing"><FaLinkedin/></Nav.Link>
             </div>
            
           </Nav>

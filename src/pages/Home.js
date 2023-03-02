@@ -44,7 +44,7 @@ const Home = (props) => {
                     <Col className='d-block text-center w-100 col1'>
                         <p className='pt-5 fs70 '>Web 3 solutions </p>
                         <p className='pt-2 fs70 '>for a brighter business future</p>
-                        <p className='pt-2 grey ml'>From validation to production, we provide the all-in-one solution you need to transform your idea into reality, fit to the market and delightful to your community.</p>
+                        <p className='pt-2 grey ml'>From validation to production, we provide the all-in-one solution you need to transform your idea into reality, fit to the market and delight to your community.</p>
 
 
                     </Col>

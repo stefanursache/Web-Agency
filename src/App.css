@@ -58,7 +58,11 @@ w100 {
   margin-left: 0;
   margin-right: 0;
 }
-
+.marginOnTheLeft{
+  margin-left: 240px;
+  padding-left: 30rem;
+  
+}
 .col1 {
   margin-top: 11% !important;
   height: 77vh !important;
